@@ -97,7 +97,7 @@ nav ul li:hover{
     text-align: center;
     width: fit-content;
     height: 80%;
-    max-width: 30%;
+    max-width: 50%;
     margin: auto; 
     margin-bottom: 5vh;
     padding: 3svh 5svh;
@@ -128,9 +128,10 @@ a{
     color: inherit;
 }
 .kontakt{
+    scroll-snap-align: start;
     text-align: center;
     color: #f2f2f2;
-    font-size: 3em;
+    font-size: 2em;
     margin: auto;
     padding: 0.5em 0.5em;
 }
@@ -155,12 +156,14 @@ a{
     }
   }
 form{
+    scroll-snap-align: center;
     text-align: center;
     color: #f2f2f2;
     border: 2px solid gold;
     width: fit-content;
     justify-content: center;
     margin: auto;
+    margin-bottom: 5vh;
     padding: 20px 10px;
     border-radius: 20px;
 }
@@ -168,23 +171,31 @@ form{
     color: #1a1a1a;
     background-color: #999999;
     border-radius: 20px;
+    padding: 0.5em;
+    font-size: large;
 }
 #prezime{
     color: #1a1a1a;
     background-color: #999999;
     border-radius: 20px;
+    padding: 0.5em;
+    font-size: large;
 }
 #email{
     color: #1a1a1a;
     background-color: #999999;
     border-radius: 20px;
     size: 10;
+    padding: 0.5em;
+    font-size: large;
 }
 #tel{
     color: #1a1a1a;
     background-color: #999999;
     border-radius: 20px;
     text-align: center;
+    padding: 0.5em;
+    font-size: large;
 }
 #mgs{
     color: #1a1a1a;
@@ -195,6 +206,8 @@ textarea{
     color: #1a1a1a;
     background-color: #999999;
     border-radius: 20px;
+    padding: 0.5em;
+    font-size: large;
 }
 #submit{
     color: #f2f2f2;
@@ -203,8 +216,6 @@ textarea{
     height: 30px;
     border-radius: 20px;
 }
-
-
 .container {
     scroll-snap-align: center;
     position: relative;
@@ -242,6 +253,7 @@ textarea{
 .opis {
     color:#f2f2f2;
     font-size: 20px;
+    width: 90%;
     position: absolute;
     top: 50%;
     left: 50%;
