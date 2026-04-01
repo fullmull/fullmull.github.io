@@ -34,10 +34,11 @@
         <label for="email">Email</label><br>
         <input type="email" id="email" placeholder="mail@example.com"><br>
         <label for="tel">Broj telefona</label><br>
-        <input type="tel" name="tel" id="tel" maxlength="10" placeholder="06612345"><br>
+        <input type="tel" name="tel" id="tel" pattern="[0-9]*" maxlength="10" placeholder="06612345"><br>
         <label for="msg">Poruka</label><br>
         <textarea id="msg" rows="7" cols="20"></textarea><br>
         <input type="submit" id="submit" value="Pošalji">
     </form>
+    <script src="/script.js"></script>
 </body>
 </html>
